@@ -1,0 +1,22 @@
+.section {
+  &__main {
+    // height: 100%;
+  }
+  &__header {
+    // background: ("./images/header.jpg");
+    height: 35vh;
+    // background-color: red;
+    &-image {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+@include breakpoint('lg') {
+  .section {
+    &__header {
+      height: 85vh;
+    }
+  }
+}

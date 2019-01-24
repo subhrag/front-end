@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	overflow: hidden;
+}
+
+h1 {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+strong {
+	font-weight: 700;
+}
